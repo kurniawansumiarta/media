@@ -1,50 +1,87 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-<meta charset="UTF-8">
-<title>Media Sport | Berita Sepak Bola</title>
-<link rel="stylesheet" href="assets/css/style.css">
+  <meta charset="UTF-8">
+  <title>Persija Media | Portal Berita Olahraga</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<header class="header">
-  <div class="logo">MEDIA SPORT</div>
+<!-- ===== HEADER ===== -->
+<header class="navbar">
+  <div class="brand">
+    <h1>PERSIJA<span>MEDIA</span></h1>
+  </div>
+
   <nav>
-    <a href="index.html">Home</a>
-    <a href="berita.html">Berita</a>
+    <a href="#">Home</a>
     <a href="#">Liga 1</a>
     <a href="#">Persija</a>
+    <a href="#">Timnas</a>
+    <a class="btn-booking" href="#">Live Score</a>
   </nav>
 </header>
 
-<section class="headline">
-  <img src="assets/images/sample.jpg">
-  <div class="headline-text">
-    <h1>Persija Siap Hadapi Persib di GBLA</h1>
-    <p>Macan Kemayoran datang dengan mental tanding tinggi...</p>
-    <a href="detail.html" class="btn">Baca Selengkapnya</a>
+<!-- ===== HERO ===== -->
+<section class="hero">
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <span class="tag">Liga 1</span>
+    <h2>Persija Siap Hadapi Persib di GBLA</h2>
+    <p>Macan Kemayoran datang dengan kepercayaan diri tinggi jelang laga panas...</p>
+    <a href="persija-vs-persib.html" class="btn-read">Baca Selengkapnya</a>
   </div>
 </section>
 
-<section class="news-grid">
-  <article>
-    <img src="assets/images/sample.jpg">
-    <h3>Persija Fokus Latihan Jelang Derby</h3>
-    <a href="detail.html">Baca</a>
-  </article>
+<!-- ===== MAIN CONTENT ===== -->
+<main class="container">
 
-  <article>
-    <img src="assets/images/sample.jpg">
-    <h3>Macan Kemayoran Targetkan Poin</h3>
-    <a href="detail.html">Baca</a>
-  </article>
-</section>
+  <!-- BERITA TERBARU -->
+  <section class="section">
+    <h3 class="section-title">Berita Terbaru</h3>
 
-<footer>
-  © 2026 Media Sport
+    <div class="news-grid">
+
+      <article class="card">
+        <img src="assets/images/persija1.jpg">
+        <div class="card-body">
+          <span class="category">Persija</span>
+          <h4>Persija Fokus Recovery Jelang Big Match</h4>
+          <p>Persija Jakarta memaksimalkan sesi pemulihan pemain...</p>
+          <a href="#">Baca</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <img src="assets/images/persija2.jpg">
+        <div class="card-body">
+          <span class="category">Liga 1</span>
+          <h4>Macan Kemayoran Incar Poin Penuh</h4>
+          <p>Target tiga poin dicanangkan demi menjaga posisi klasemen...</p>
+          <a href="#">Baca</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <img src="assets/images/persija3.jpg">
+        <div class="card-body">
+          <span class="category">Match Preview</span>
+          <h4>Head to Head Persija vs Persib</h4>
+          <p>Rekor pertemuan kedua tim di Liga Indonesia...</p>
+          <a href="#">Baca</a>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+</main>
+
+<!-- ===== FOOTER ===== -->
+<footer class="footer">
+  <p>© 2026 Persija Media · All Rights Reserved</p>
 </footer>
 
 </body>
 </html>
-
