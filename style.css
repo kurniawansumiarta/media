@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #f4f4f4;
+  color: #111;
+}
+
+/* HEADER */
+.header {
+  position: sticky;
+  top: 0;
+  background: #111;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 40px;
+  z-index: 99;
+}
+
+.header a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+/* HEADLINE */
+.headline {
+  position: relative;
+}
+
+.headline img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+.headline-text {
+  position: absolute;
+  bottom: 40px;
+  left: 40px;
+  color: white;
+}
+
+.btn {
+  display: inline-block;
+  background: red;
+  color: white;
+  padding: 10px 20px;
+  margin-top: 10px;
+}
+
+/* GRID BERITA */
+.news-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 40px;
+}
+
+.news-grid img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+/* LIST BERITA */
+.list-berita article {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  background: white;
+  margin: 20px;
+}
+
+/* DETAIL */
+.detail {
+  padding: 40px;
+  background: white;
+  margin: 40px;
+}
+
+.detail img {
+  width: 100%;
+  margin: 20px 0;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #111;
+  color: white;
+}
